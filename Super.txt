@@ -1,0 +1,161 @@
+super
+
+1.refer immediate parent class instance variable
+
+
+class A
+{
+
+String color="Black";
+
+
+
+
+
+}
+
+
+class B extends A
+
+{
+String color="White";
+
+public void print()
+{
+color---->white
+System.out.println(super.color);-->black
+
+
+}
+
+
+
+
+
+}
+
+
+2.used to invoke immediate parent class instance method
+
+
+class A
+{
+
+
+public void print()
+{
+
+System.out.println("hello class A");
+
+
+}
+
+
+
+
+
+}
+
+
+class B extends A
+
+{
+
+
+public void print()
+{
+
+System.out.println("hello class B");
+
+
+}
+public void test()
+{
+print();
+super.print();
+
+
+
+
+}
+
+
+
+
+
+}
+
+
+3.invoke parent class constructor
+
+class A
+{
+public void A()
+{
+
+System.out.println("hello class A");
+
+
+}
+
+
+
+
+
+}
+
+
+class B extends A
+
+{
+
+
+public void B()
+{
+super();
+
+System.out.println("hello class B");
+
+
+}
+public static void main(String args[])
+{
+B obj=new B();
+
+
+
+
+
+
+}
+
+
+
+
+
+}
+
+===============================================================================================================
+JAVA
+String s="";
+
+
+s=S+ch;
+""+A
+s=A;
+s=A+V
+s=AV
+AV+A
+AVA
+AVA+J
+AVAJ
+
+
+
+
+
+
+
+
+
+

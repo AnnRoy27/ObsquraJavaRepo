@@ -1,0 +1,6 @@
+Static Method static method -->Classname.method name
+static method  static variable-->variablename
+instance method  instance method-->methodname
+instance method  instance variable  -->variablename
+static method instance method-->obj.methodname
+static method instance variable -->obj.variable

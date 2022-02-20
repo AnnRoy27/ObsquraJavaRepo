@@ -1,0 +1,49 @@
+JAVA
+
+
+Object oriented Programing Language.
+
+
+Object
+An entity with state and behaviour.
+Real world example-Pen 
+
+ int  a=10;
+ float b=10.01
+ char c='A';
+ String s="Abhimanya";
+state-datatype
+behaviour-methods
+
+class-blueprint of an object .
+
+
+class SampleProgram
+{
+public static void main(String args[])
+{
+System.out.println("Hello world");
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
